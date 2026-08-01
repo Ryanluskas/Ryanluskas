@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Ryan — Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="60%" stop-color="#11161d"/>
+      <stop offset="100%" stop-color="#0a0d12"/>
+    </linearGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1c2430" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="fadeGrid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect width="1000" height="260" fill="url(#fadeGrid)"/>
+    </mask>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f0f6fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f0f6fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#bg)"/>
+  <rect width="1000" height="260" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- terminal prompt eyebrow -->
+  <text x="64" y="82" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace"
+        font-size="15" letter-spacing="2" fill="#7d8590">
+    <tspan fill="#3fb950">~</tspan> $ whoami
+  </text>
+
+  <!-- name -->
+  <text x="62" y="152" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace"
+        font-size="66" font-weight="700" letter-spacing="-1" fill="#f0f6fc">ryan</text>
+
+  <!-- blinking cursor -->
+  <rect x="216" y="118" width="17" height="42" fill="#3fb950">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <line x1="64" y1="182" x2="600" y2="182" stroke="url(#rule)" stroke-width="1"/>
+
+  <text x="64" y="212" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace"
+        font-size="16" letter-spacing="4" fill="#8b949e">FULL STACK DEVELOPER</text>
+
+  <!-- cat, sitting at the edge watching -->
+  <g transform="translate(838 88)" fill="#161b22" stroke="#30363d" stroke-width="1.5">
+    <path d="M18 96 C 8 96, 4 78, 8 58 C 11 40, 22 28, 40 28 C 58 28, 69 40, 72 58 C 76 78, 72 96, 62 96 Z"/>
+    <path d="M14 30 L 16 6 L 34 22 Z"/>
+    <path d="M66 30 L 64 6 L 46 22 Z"/>
+    <path d="M72 90 C 92 92, 96 74, 88 62" fill="none" stroke-linecap="round" stroke-width="5"/>
+  </g>
+  <g transform="translate(838 88)">
+    <circle cx="29" cy="52" r="3.5" fill="#3fb950"/>
+    <circle cx="51" cy="52" r="3.5" fill="#3fb950"/>
+  </g>
+
+  <line x1="0" y1="259" x2="1000" y2="259" stroke="#21262d" stroke-width="2"/>
+</svg>
