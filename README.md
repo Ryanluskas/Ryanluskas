@@ -8,8 +8,8 @@
 
 <div align="center">
 
-Dev focado em aplicações web e automação.<br>
-Pego processo manual chato e transformo em código que roda sozinho.
+Automação em Python e aplicações web.<br>
+Pego processo manual exaustivo e transformo em código que roda sozinho.
 
 </div>
 
@@ -17,7 +17,7 @@ Pego processo manual chato e transformo em código que roda sozinho.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,prisma,supabase,postgres,vercel&theme=dark" alt="stack" />
+<img src="https://skillicons.dev/icons?i=py,selenium,ts,js,react,nextjs,nodejs,prisma,supabase,postgres&theme=dark" alt="stack" />
 
 </div>
 
@@ -26,28 +26,27 @@ Pego processo manual chato e transformo em código que roda sozinho.
 
 <div align="center">
 
-### Projetos
+### Sobre mim
 
 </div>
 
-<table align="center">
-<tr>
-  <td width="180"><b>CapitalCred CRM</b></td>
-  <td>CRM full stack — pipeline em kanban e motor de comissionamento</td>
-</tr>
-<tr>
-  <td><b>meu-painel</b></td>
-  <td>PWA de acompanhamento de pipeline, deploy na Vercel</td>
-</tr>
-<tr>
-  <td><b>LiberouV2</b></td>
-  <td>App React de simulação financeira calibrada por dados reais</td>
-</tr>
-<tr>
-  <td><b>scraper-bot</b></td>
-  <td>Automação em Playwright para scraping e processamento de dados</td>
-</tr>
-</table>
+<div align="center">
+
+Comecei a programar porque cansei de ver gente boa gastando o dia inteiro<br>
+em tarefa repetitiva que um script resolveria em segundos.
+
+<br>
+
+Trabalho principalmente com **automação em Python** — scraping, processamento<br>
+de planilha, bot que preenche formulário, relatório que se monta sozinho.<br>
+Do lado web, construo as interfaces que fazem essa automação virar ferramenta usável.
+
+<br>
+
+O que me move não é a stack. É ver alguém recuperar<br>
+horas do próprio dia porque o trabalho exaustivo virou um clique.
+
+</div>
 
 <br>
 <br>
