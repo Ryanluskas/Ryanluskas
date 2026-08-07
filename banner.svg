@@ -1,64 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Ryan — Full Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="ryan - full stack developer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="60%" stop-color="#11161d"/>
-      <stop offset="100%" stop-color="#0a0d12"/>
-    </linearGradient>
-
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#1c2430" stroke-width="1"/>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#EFEFEF"/>
     </pattern>
-
-    <linearGradient id="fadeGrid" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
-      <stop offset="55%" stop-color="#fff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
-    <mask id="gridMask">
-      <rect width="1000" height="260" fill="url(#fadeGrid)"/>
-    </mask>
-
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f0f6fc" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#f0f6fc" stop-opacity="0"/>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect width="1000" height="260" fill="url(#bg)"/>
-  <rect width="1000" height="260" fill="url(#grid)" mask="url(#gridMask)"/>
+  <!-- card -->
+  <rect x="1" y="1" width="998" height="278" rx="18" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="998" height="278" rx="18" fill="url(#dots)"/>
+  <rect x="1" y="1" width="620" height="278" rx="18" fill="url(#fade)"/>
+  <rect x="0.75" y="0.75" width="998.5" height="278.5" rx="18" fill="none" stroke="#E8E8E8" stroke-width="1.5"/>
 
-  <!-- terminal prompt eyebrow -->
-  <text x="64" y="82" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace"
-        font-size="15" letter-spacing="2" fill="#7d8590">
-    <tspan fill="#3fb950">~</tspan> $ whoami
-  </text>
+  <!-- texto -->
+  <text x="66" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.5" fill="#B0B0B0">~ $ whoami</text>
 
-  <!-- name -->
-  <text x="62" y="152" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace"
-        font-size="66" font-weight="700" letter-spacing="-1" fill="#f0f6fc">ryan</text>
+  <text x="62" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="78" font-weight="700" letter-spacing="-2" fill="#141414">ryan</text>
 
-  <!-- blinking cursor -->
-  <rect x="216" y="118" width="17" height="42" fill="#3fb950">
-    <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+  <line x1="66" y1="198" x2="470" y2="198" stroke="#E8E8E8" stroke-width="1.5"/>
 
-  <line x1="64" y1="182" x2="600" y2="182" stroke="url(#rule)" stroke-width="1"/>
+  <text x="66" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" letter-spacing="6" fill="#8C8C8C">FULL STACK DEVELOPER</text>
 
-  <text x="64" y="212" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace"
-        font-size="16" letter-spacing="4" fill="#8b949e">FULL STACK DEVELOPER</text>
-
-  <!-- cat, sitting at the edge watching -->
-  <g transform="translate(838 88)" fill="#161b22" stroke="#30363d" stroke-width="1.5">
-    <path d="M18 96 C 8 96, 4 78, 8 58 C 11 40, 22 28, 40 28 C 58 28, 69 40, 72 58 C 76 78, 72 96, 62 96 Z"/>
-    <path d="M14 30 L 16 6 L 34 22 Z"/>
-    <path d="M66 30 L 64 6 L 46 22 Z"/>
-    <path d="M72 90 C 92 92, 96 74, 88 62" fill="none" stroke-linecap="round" stroke-width="5"/>
+  <!-- gatinho -->
+  <g transform="translate(752 46) scale(0.95)" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- orelhas -->
+    <path d="M68 48 L64 18 L94 36"/>
+    <path d="M132 48 L136 18 L106 36"/>
+    <!-- cabeca -->
+    <path d="M100 34 C126 34 141 52 141 72 C141 92 124 106 100 106 C76 106 59 92 59 72 C59 52 74 34 100 34 Z"/>
+    <!-- corpo -->
+    <path d="M70 100 C52 126 47 164 58 178 L142 178 C153 164 148 126 130 100"/>
+    <!-- patas -->
+    <path d="M78 178 C74 168 82 162 90 166"/>
+    <path d="M122 178 C126 168 118 162 110 166"/>
+    <!-- rabo -->
+    <path d="M142 178 C176 180 186 150 172 132 C165 123 154 124 152 132"/>
+    <!-- olhos -->
+    <path d="M83 68 C85 63 91 63 93 68"/>
+    <path d="M107 68 C109 63 115 63 117 68"/>
+    <!-- focinho -->
+    <path d="M96 80 L104 80 L100 85 Z" fill="#1A1A1A"/>
+    <path d="M100 85 C100 91 95 92 92 89"/>
+    <path d="M100 85 C100 91 105 92 108 89"/>
+    <!-- bigodes -->
+    <g stroke-width="2.2" stroke="#BDBDBD">
+      <path d="M56 76 L26 70"/>
+      <path d="M56 84 L28 86"/>
+      <path d="M144 76 L174 70"/>
+      <path d="M144 84 L172 86"/>
+    </g>
   </g>
-  <g transform="translate(838 88)">
-    <circle cx="29" cy="52" r="3.5" fill="#3fb950"/>
-    <circle cx="51" cy="52" r="3.5" fill="#3fb950"/>
-  </g>
-
-  <line x1="0" y1="259" x2="1000" y2="259" stroke="#21262d" stroke-width="2"/>
 </svg>
