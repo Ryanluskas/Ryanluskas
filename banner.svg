@@ -1,72 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&amp;display=swap');
       
-      .bg { fill: #FAFAFA; }
-      .grid-line { stroke: #EBEBEB; }
-      
-      .text-main { 
-        fill: #111111; 
-        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
-        font-weight: 700; 
-        letter-spacing: -2.5px; 
-      }
-      
-      .text-sub { 
-        fill: #555555; 
-        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
-        font-weight: 400; 
-        letter-spacing: -0.2px; 
-      }
-      
-      .text-small { 
-        fill: #999999; 
-        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
-        font-weight: 500; 
-        letter-spacing: 2px; 
-      }
-      
-      .line-accent { stroke: #CCCCCC; }
-      
-      .cat-stroke { stroke: #111111; }
+      .primary { fill: #111111; }
+      .secondary { fill: #777777; }
+      .cat-path { stroke: #111111; }
       .cat-fill { fill: #111111; }
       
       @media (prefers-color-scheme: dark) {
-        .bg { fill: #0D1117; } /* GitHub native dark background */
-        .grid-line { stroke: #21262D; }
-        
-        .text-main { fill: #F0F6FC; }
-        .text-sub { fill: #8B949E; }
-        .text-small { fill: #484F58; }
-        
-        .line-accent { stroke: #30363D; }
-        
-        .cat-stroke { stroke: #F0F6FC; }
+        .primary { fill: #F0F6FC; }
+        .secondary { fill: #8B949E; }
+        .cat-path { stroke: #F0F6FC; }
         .cat-fill { fill: #F0F6FC; }
       }
     </style>
-    
-    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-      <path d="M 80 0 L 0 0 0 80" fill="none" stroke-width="0.5" class="grid-line"/>
-    </pattern>
   </defs>
 
-  <rect width="1000" height="320" class="bg"/>
-  <rect width="1000" height="320" fill="url(#grid)"/>
+  <!-- No background rect. Transparent background so it perfectly matches the GitHub theme (light or dark) without any seams -->
 
-  <!-- Left Layout -->
-  <text x="80" y="150" font-size="82" class="text-main">RYAN LUKAS</text>
-  <text x="83" y="200" font-size="22" class="text-sub">Software developer building digital products.</text>
+  <!-- Large Typographic Name -->
+  <text x="0" y="200" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="120" letter-spacing="-6" class="primary">RYAN LUKAS</text>
+  
+  <!-- Minimalist Subtitle -->
+  <text x="8" y="260" font-family="'Inter', system-ui, sans-serif" font-weight="300" font-size="28" letter-spacing="-0.5" class="secondary">Software Developer. Product Builder.</text>
 
-  <!-- Minimal Line -->
-  <line x1="83" y1="245" x2="123" y2="245" stroke-width="1.5" class="line-accent"/>
-
-  <!-- Bottom Detail -->
-  <text x="143" y="249" font-size="11" class="text-small">BASED IN BRAZIL</text>
-
-  <!-- Cat Signature (Right Aligned, Asymmetrical) -->
-  <g transform="translate(760, 100) scale(0.65)" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="cat-stroke">
+  <!-- Abstract Cat Signature Overlaying the right side -->
+  <!-- Enlarged and rendered with a very thin stroke, creating an architectural/editorial sketch feel -->
+  <g transform="translate(680, -20) scale(2.2)" fill="none" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" class="cat-path">
     <path d="M68 48 L64 18 L94 36"/>
     <path d="M132 48 L136 18 L106 36"/>
     <path d="M100 34 C126 34 141 52 141 72 C141 92 124 106 100 106 C76 106 59 92 59 72 C59 52 74 34 100 34 Z"/>
@@ -79,7 +40,7 @@
     <path d="M96 80 L104 80 L100 85 Z" class="cat-fill"/>
     <path d="M100 85 C100 91 95 92 92 89"/>
     <path d="M100 85 C100 91 105 92 108 89"/>
-    <g stroke-width="1.5" stroke-opacity="0.3">
+    <g stroke-width="0.5" stroke-opacity="0.6">
       <path d="M56 76 L26 70"/>
       <path d="M56 84 L28 86"/>
       <path d="M144 76 L174 70"/>
