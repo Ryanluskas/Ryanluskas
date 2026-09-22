@@ -1,51 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
   <defs>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap');
+      
       .bg { fill: #FAFAFA; }
-      .grid { stroke: #E5E5E5; }
-      .accent { stroke: #111111; }
-      .text-primary { fill: #111111; }
-      .text-secondary { fill: #666666; }
-      .text-muted { fill: #999999; }
-      .cat { stroke: #111111; }
+      .grid-line { stroke: #EBEBEB; }
+      
+      .text-main { 
+        fill: #111111; 
+        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+        font-weight: 700; 
+        letter-spacing: -2.5px; 
+      }
+      
+      .text-sub { 
+        fill: #555555; 
+        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+        font-weight: 400; 
+        letter-spacing: -0.2px; 
+      }
+      
+      .text-small { 
+        fill: #999999; 
+        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+        font-weight: 500; 
+        letter-spacing: 2px; 
+      }
+      
+      .line-accent { stroke: #CCCCCC; }
+      
+      .cat-stroke { stroke: #111111; }
       .cat-fill { fill: #111111; }
       
       @media (prefers-color-scheme: dark) {
         .bg { fill: #0D1117; } /* GitHub native dark background */
-        .grid { stroke: #21262D; }
-        .accent { stroke: #C9D1D9; }
-        .text-primary { fill: #C9D1D9; }
-        .text-secondary { fill: #8B949E; }
-        .text-muted { fill: #484F58; }
-        .cat { stroke: #C9D1D9; }
-        .cat-fill { fill: #C9D1D9; }
+        .grid-line { stroke: #21262D; }
+        
+        .text-main { fill: #F0F6FC; }
+        .text-sub { fill: #8B949E; }
+        .text-small { fill: #484F58; }
+        
+        .line-accent { stroke: #30363D; }
+        
+        .cat-stroke { stroke: #F0F6FC; }
+        .cat-fill { fill: #F0F6FC; }
       }
     </style>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke-width="0.5" class="grid"/>
+    
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke-width="0.5" class="grid-line"/>
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="1000" height="280" class="bg"/>
-  <rect width="1000" height="280" fill="url(#grid)"/>
+  <rect width="1000" height="320" class="bg"/>
+  <rect width="1000" height="320" fill="url(#grid)"/>
 
-  <!-- Left Accent Line -->
-  <line x1="0" y1="0" x2="0" y2="280" stroke-width="8" class="accent"/>
+  <!-- Left Layout -->
+  <text x="80" y="150" font-size="82" class="text-main">RYAN LUKAS</text>
+  <text x="83" y="200" font-size="22" class="text-sub">Software developer building digital products.</text>
 
-  <!-- Main Typography -->
-  <!-- Name -->
-  <text x="60" y="110" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5" class="text-primary">RYAN</text>
-  
-  <!-- Role -->
-  <text x="62" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="600" letter-spacing="3" class="text-secondary">PRODUCT ENGINEER</text>
+  <!-- Minimal Line -->
+  <line x1="83" y1="245" x2="123" y2="245" stroke-width="1.5" class="line-accent"/>
 
-  <!-- Sub-description -->
-  <text x="62" y="195" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="15" font-weight="400" letter-spacing="0.2" class="text-muted">Building systems, internal tools,</text>
-  <text x="62" y="218" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="15" font-weight="400" letter-spacing="0.2" class="text-muted">and automated workflows.</text>
+  <!-- Bottom Detail -->
+  <text x="143" y="249" font-size="11" class="text-small">BASED IN BRAZIL</text>
 
-  <!-- Minimalist Cat -->
-  <g transform="translate(820, 100) scale(0.6)" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="cat">
+  <!-- Cat Signature (Right Aligned, Asymmetrical) -->
+  <g transform="translate(760, 100) scale(0.65)" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="cat-stroke">
     <path d="M68 48 L64 18 L94 36"/>
     <path d="M132 48 L136 18 L106 36"/>
     <path d="M100 34 C126 34 141 52 141 72 C141 92 124 106 100 106 C76 106 59 92 59 72 C59 52 74 34 100 34 Z"/>
@@ -58,15 +79,11 @@
     <path d="M96 80 L104 80 L100 85 Z" class="cat-fill"/>
     <path d="M100 85 C100 91 95 92 92 89"/>
     <path d="M100 85 C100 91 105 92 108 89"/>
-    <g stroke-width="2" stroke-opacity="0.5">
+    <g stroke-width="1.5" stroke-opacity="0.3">
       <path d="M56 76 L26 70"/>
       <path d="M56 84 L28 86"/>
       <path d="M144 76 L174 70"/>
       <path d="M144 84 L172 86"/>
     </g>
   </g>
-  
-  <!-- Subtle coordinate or serial number for tech editorial feel -->
-  <text x="890" y="240" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="400" class="text-muted">SYS.REQ.01</text>
-  <text x="890" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="400" class="text-muted">EST. 2023</text>
 </svg>

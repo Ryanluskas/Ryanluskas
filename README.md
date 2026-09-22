@@ -1,49 +1,59 @@
 <div align="center">
-  <img src="./banner.svg" alt="RYAN — PRODUCT ENGINEER" width="100%" />
+  <img src="./banner.svg" alt="Ryan Lukas — Software Developer" width="100%" />
 </div>
 
-<br />
+<br>
 
-Desenvolvedor focado na construção de produtos digitais e sistemas internos. Atuo em toda a esteira de engenharia: modelagem do banco de dados, motores de automação, design de interface e deploy.
+<div align="center">
+  <a href="https://biography-murex.vercel.app/">Portfolio</a> &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:mandrakedafavela82@gmail.com">Email</a> &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://instagram.com/r.lukasb">Instagram</a>
+</div>
 
-<br />
+<br><br><br>
 
-## Projetos Principais
+## Selected Work
 
-**[Mikasa](https://github.com/Ryanluskas/mikasa)**  
-Life OS construído para gestão centralizada de rotina, treinos, hábitos e controle financeiro pessoal.  
-`TypeScript` `Next.js`
+<br>
 
-**[CapitalCred CRM](https://github.com/Ryanluskas/capitalcred-crm)**  
-Plataforma sob medida para gestão do ciclo de vida de clientes, tracking de contratos e operações internas.  
+#### 01 &nbsp;—&nbsp; [Mikasa](https://github.com/Ryanluskas/mikasa)
+Life OS built for centralized management of routines, training, and personal finances.  
+`TypeScript` `Next.js` `Prisma`
+
+<br>
+
+#### 02 &nbsp;—&nbsp; [CapitalCred](https://github.com/Ryanluskas/capitalcred-crm)
+Tailor-made CRM platform for tracking customer lifecycle and internal operations.  
 `React` `Node.js`
 
-**[Vértice Lead Hunter](https://github.com/Ryanluskas/vertice-lead-hunter)**  
-Motor autônomo para extração de dados, qualificação de leads e automação de prospecção B2B.  
-`TypeScript` `Automação`
+<br>
 
-**[WhatsApp Simulações](https://github.com/Ryanluskas/whatsapp-simulacoes-bot)**  
-Pipeline de automação e web scraping integrado ao WhatsApp para processar simulações financeiras em tempo real.  
-`Python` `Integrações`
+#### 03 &nbsp;—&nbsp; [Vértice Lead Hunter](https://github.com/Ryanluskas/vertice-lead-hunter)
+Autonomous engine for data extraction and automated B2B lead qualification.  
+`TypeScript` `Automation`
 
-**[Biography](https://github.com/Ryanluskas/biography)**  
-Portfólio e espaço autoral desenvolvido com atenção primária a tipografia, espaços em branco e design editorial.  
-`TypeScript` `Tailwind`
+<br>
 
-<br />
+#### 04 &nbsp;—&nbsp; [WhatsApp Simulações](https://github.com/Ryanluskas/whatsapp-simulacoes-bot)
+Integration pipeline and web scraping bot for real-time financial simulations.  
+`Python` `Data Extraction`
 
-## Stack Técnica
+<br><br><br>
 
-- **Back-end & Dados:** Node.js, Python, PostgreSQL, Prisma
-- **Front-end & Produto:** React, Next.js, TypeScript, Tailwind CSS
-- **Infraestrutura & Automação:** Docker, Selenium, Git, Vercel
+## Core Stack
 
-<br />
+I work primarily across:
 
-## Contato
+> **TypeScript &nbsp;·&nbsp; React &nbsp;·&nbsp; Next.js**  
+> **Node.js &nbsp;·&nbsp; Python &nbsp;·&nbsp; PostgreSQL**  
+> **Docker &nbsp;·&nbsp; Vercel &nbsp;·&nbsp; Web Scraping**
 
-<p>
-  <a href="https://biography-murex.vercel.app/" target="_blank">Portfólio</a> &nbsp;·&nbsp;
-  <a href="mailto:mandrakedafavela82@gmail.com" target="_blank">Email</a> &nbsp;·&nbsp;
-  <a href="https://instagram.com/r.lukasb" target="_blank">Instagram</a>
-</p>
+<br><br><br>
+
+## Let's build something.
+
+<a href="https://biography-murex.vercel.app/">Portfolio</a> &nbsp;↗&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:mandrakedafavela82@gmail.com">Email</a> &nbsp;↗&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/r.lukasb">Instagram</a> &nbsp;↗
+
+<br><br>
