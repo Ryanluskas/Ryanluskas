@@ -16,11 +16,11 @@
 
 ## Sobre mim
 
-Sou desenvolvedor **full stack**. Construo do banco de dados até a interface: aplicações web, sistemas internos, CRMs, dashboards e automações que rodam sozinhas.
+Sou **desenvolvedor full stack** que constrói soluções completas — desde o banco de dados até a interface que o usuário toca.
 
-Comecei resolvendo o problema de gente talentosa perdendo o dia inteiro em tarefa repetitiva — e continuo com a mesma régua: se dá pra transformar em um clique, transformo. Hoje isso vai desde um scraper em Python até um sistema completo em Next.js com autenticação, painel e API.
+Comecei resolvendo um problema real: pessoas talentosas perdendo 8 horas por dia em tarefas repetitivas. Desde então trabalho com uma régua simples: **se dá pra automatizar, automatizo**. Isso hoje vai desde um scraper em Python até um sistema completo em Next.js com autenticação, dashboard e API pronta pra escala.
 
-Não corro atrás de hype de tecnologia. Corro atrás de coisa que funciona, entrega e devolve horas pra quem usa.
+Não sigo hype de tecnologia. Persigo soluções que **funcionam**, que **entregam**, e que devolvem tempo pra quem usa.
 
 <br />
 
@@ -28,33 +28,33 @@ Não corro atrás de hype de tecnologia. Corro atrás de coisa que funciona, ent
 
 **Front-end**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,astro,vite&theme=light" alt="html, css, javascript, typescript, react, next.js, tailwind, astro, vite" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,astro,vite&theme=light" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Astro, Vite" />
 
 **Back-end & Dados**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,prisma,postgres,mysql,supabase&theme=light" alt="node.js, express, python, fastapi, prisma, postgresql, mysql, supabase" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,prisma,postgres,mysql,supabase&theme=light" alt="Node.js, Express, Python, FastAPI, Prisma, PostgreSQL, MySQL, Supabase" />
 
 **Automação & Ferramentas**
 
-<img src="https://skillicons.dev/icons?i=selenium,git,github,docker,linux,vercel,postman,figma&theme=light" alt="selenium, git, github, docker, linux, vercel, postman, figma" />
+<img src="https://skillicons.dev/icons?i=selenium,git,github,docker,linux,vercel,postman,figma&theme=light" alt="Selenium, Git, GitHub, Docker, Linux, Vercel, Postman, Figma" />
 
 <br />
 
 ## O que eu construo
 
-**Aplicações web** — sites e sistemas completos em React / Next.js, com API, banco, autenticação e deploy. Interface que qualquer pessoa consegue usar sem manual.
+**Aplicações web** — Portais, plataformas e dashboards em React / Next.js com arquitetura escalável. API robusta, banco de dados otimizado, autenticação segura e deploy em produção. Interfaces que pessoas usam sem precisar de tutorial.
 
-**Sistemas & CRM** — painéis de gestão, controle de clientes, relatórios e integrações. Feito sob medida pro processo de quem vai usar, não o contrário.
+**Sistemas & CRM** — Painéis de gestão customizados, controle de clientes, relatórios automatizados e integrações com ferramentas externas. Sempre pensado no fluxo real de quem vai usar, não no que parece bonito num Figma.
 
-**Automação** — web scraping, bots de preenchimento de formulário, tratamento de planilha e geração automática de relatório. O trabalho de uma tarde virando um script que roda em segundos.
+**Automação & Web Scraping** — Scripts que transformam horas de trabalho manual em segundos. Web scraping, bots inteligentes, processamento de dados em massa, geração automática de documentos e relatórios. De uma tarde de cliques para rodar sozinho.
 
 <br />
 
 ## GitHub
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Ryanluskas&show_icons=true&hide_title=true&hide_border=false&border_radius=12&border_color=E8E8E8&bg_color=FFFFFF&title_color=141414&text_color=555555&icon_color=141414" alt="estatísticas do github" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryanluskas&layout=compact&hide_title=true&langs_count=8&hide_border=false&border_radius=12&border_color=E8E8E8&bg_color=FFFFFF&title_color=141414&text_color=555555" alt="linguagens mais usadas" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Ryanluskas&show_icons=true&hide_title=true&hide_border=false&border_radius=12&border_color=E8E8E8&bg_color=FFFFFF&title_color=141414&text_color=555555&icon_color=141414" alt="Estatísticas do GitHub" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryanluskas&layout=compact&hide_title=true&langs_count=8&hide_border=false&border_radius=12&border_color=E8E8E8&bg_color=FFFFFF&title_color=141414&text_color=555555" alt="Linguagens mais usadas" />
 </div>
 
 <br />

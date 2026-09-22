@@ -2,7 +2,7 @@
   <title id="title">Ryan Lukas</title>
   <desc id="desc">Full-stack developer e product builder. Um gatinho de traço fino sentado ao lado do nome.</desc>
   <style>
-    :root { --bg:#0d1117; --card:#0f141b; --fg:#f0f6fc; --muted:#8b949e; --line:#30363d; --dot:#21262d; --accent:#f5c451; }
+    :root { --bg:#ffffff; --card:#ffffff; --fg:#141414; --muted:#57606a; --line:#d0d7de; --dot:#e8ebef; --accent:#c98a00; }
     .sans { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
 
